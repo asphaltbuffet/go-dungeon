@@ -1,0 +1,249 @@
+{
+    "lang": "en",
+    "title": "Classic",
+    "about": "Classic theme",
+    "map": {
+        "theme": ["Criminal", "Haunted", "Infested", "Unnatural", "Magic", "Occult"],
+        "type": ["Cave", "Crypt", "Temple", "Ruin", "Lair", "Hideout"],
+        "adjectives": [
+            ["of Forgotten", "of Hidden", "of Haunted", "of Shattered", "of Dark", "of Cursed"],
+            ["of Many", "of Desperate", "of Shallow", "of Frozen", "of Infested", "of Dying"]
+        ],
+        "nouns": [
+            ["Gods", "Veils", "Ravens", "Omens", "Portals", "Shadows"],
+            ["Stars", "Truths", "Deaths", "Depths", "Spirits", "Doom"]
+        ],
+        "discoveries": {
+            "special_room": [
+                ["Shrine", "Library", "Crypt", "Trophy", "Workshop", "Laboratory"],
+                [ "Archive", "Weapon", "Ritual", "Torture", "Kitchen", "Throne"]
+            ],
+            "feature": ["Pool", "Garden", "River", "Obelisk", "Lever", "Mist"],
+            "item": ["Key", "Torch", "Junk", "Tools", "Weapon", "Food"],
+            "treasure": ["Weapon", "3d6 Coins", "d6 Gems", "Potion", "Artifact", "Scroll"],
+            "passive": ["Prisoner", "Defector", "Secret Door", "Secret Door", "Empty", "Empty"]
+        },
+        "dangers": {
+            "hazard": ["Debris", "Collapse", "Vapor", "Resources", "Toxin", "Darkness"],
+            "trap": ["Pit", "Dart", "Spike", "Pendulum", "Boulder", "Fumes"],
+            "encounter": ["Guarding", "Eating", "Resting", "Patrolling", "Gathering", "Socializing"]
+        },
+        "dressing": {
+            "natural": ["Dung", "Moss", "Dust", "Crystal", "Oil", "Mold"],
+            "man-made": ["Tapestry", "Graffiti", "Furniture", "Mirror", "Statue", "Fireplace"],
+            "lighting": ["None", "Candles", "Sconces", "Glow", "Torches", "Lamps"],
+            "odor": ["Dung", "Urine", "Sweat", "Smoke", "Dust", "Food"],
+            "odd": ["Talking corpse", "Hazy orb", "Singing flies", "Creature egg", "Helpful ghost", "Glowing tree"],
+            "mystical": ["Hovering flame", " Silver pool", "Metal orb", "Glowing portal", "Ritual marks", "Bloody altar"]
+        },
+        "descriptions": [
+            ["High", "Remote", "Small", "Exposed", "Dark", "Rough"],
+            ["Shadowy", "Grim", "Blocked", "Ancient", "Perilous", "Big"],
+            ["Wide", "Empty", "Narrow", "Foul", "Dead", "Barren"]
+        ],
+        "history": {
+            "destruction": ["Curse", "Invasion", "Lich", "Environment", "Infestation", "Plague"],
+            "builder": ["Wizard", "Cult", "Man", "Humanoid", "Monster", "God"],
+            "purpose": ["Mine", "Portal", "Crypt", "Hideout", "Prison", "Temple"]
+        },
+        "denizens": {
+            "humanoid": ["Acolytes", "Bandits", "Kobolds", "Goblins", "Snake People", "Mycelium"],
+            "creature": ["Spiders", "Centipedes", "Lizards", "Oozes", "Rust Monster", "Beetles"],
+            "unnatural": ["Skeleton", "Ghouls", "Zombies", "Ghast", "Thouls", "Dark Creepers"]
+        },
+        "loot": [
+            ["Bone dice", "Gold piece", "Lint", "Twine", "Key", "Cloak"],
+            ["Chipped mug", "Fishing hook", "Rubber ball", "Banner", "Awl", "Gem"],
+            ["Paring knife", "Scrimshaw", "Hat", "Egg", "Empty Wallet", "Manacles"],
+            ["Matches", "Bandana", "Kite", "Potion", "Soft pillow", "Oil portrait"],
+            ["Lute", "Flute", "Belt buckle", "Worn shield", "Wrench", "Scroll"],
+            ["Wand", "Trowel", "Shovel", "Hammer", "Pot of soup", "Ring"]
+        ],
+        "explore": ["Nothing", "Omen", "Discovery", "Discovery", "Danger", "Danger"],
+        "omen": ["Blood", "Tracks", "Voices", "Odor", "Corpse", "Knocking"],
+        "discovery": ["Special Room", "Special Room", "Feature", "Item", "Treasure", "Passive"],
+        "danger": ["Hazard", "Trap", "Encounter", "Monster (T1)", "Monster (T1)", "Monster (T2)"],
+        "reaction": ["Helpful", "Indifferent", "Rude", "Hostile", "Hostile", "Hostile"],
+        "door": ["Unlocked", "Unlocked", "Unlocked", "Locked", "Locked", "Trapped"]
+    },
+    "denizens":{
+        "tier1": {
+            "humanoid": [
+                "Acolyte: HD(2)|AC/ATK(12)|Dmg(d4)",
+                "Bandit: HD(2)|AC/ATK(12)|Dmg(d6)",
+                "Kobold: HD(2)|AC/ATK(12)|Dmg(d6)",
+                "Goblin: HD(1)|AC/ATK(11)|Dmg(d4)",
+                "Snake Person: HD(3)|AC/ATK(13)|Dmg(d6)",
+                "Mycelium: HD(2)|AC/ATK(12)|Dmg(d4)"
+            ],
+            "creature": [
+                "Spider: HD(1)|AC/ATK(11)|Dmg(d6)",
+                "Centipedes: HD(2)|AC/ATK(12)|Dmg(d6)",
+                "Lizard: HD(2)|AC/ATK(12)|Dmg(d6)",
+                "Ooze: HD(4)|AC/ATK(14)|Dmg(d4)",
+                "Rust Monster: HD(3)|AC/ATK(13)|Dmg(d6)",
+                "Beetle: HD(2)|AC/ATK(12)|Dmg(d4)"
+            ],
+            "unnatural": [
+                "Skeleton: HD(1)|AC/ATK(11)|Dmg(d6)",
+                "Ghoul: HD(2)|AC/ATK(12)|Dmg(d6)",
+                "Zombie: HD(1)|AC/ATK(11)|Dmg(d6)",
+                "Ghast: HD(3)|AC/ATK(13)|Dmg(d4)",
+                "Thoul: HD(4)|AC/ATK(14)|Dmg(d6)",
+                "Dark Creeper: HD(2)|AC/ATK(12)|Dmg(d4)"
+            ]
+        },
+        "tier2": {
+            "humanoid": [
+                "Cultist: HD(3)|AC/ATK(13)|Dmg(d6)",
+                "Bandit: HD(4)|AC/ATK(14)|Dmg(d6",
+                "Minotaur: HD(5)|AC/ATK(15)|Dmg(d6+2)",
+                "Owl Bear: HD(5)|AC/ATK(15)|Dmg(d8,d8)",
+                "Vampire: HD(6)|AC/ATK(16)|Dmg(d10)",
+                "Troll: HD(5)|AC/ATK(15)|Dmg(d6+2)"
+            ],
+            "creature": [
+                "Giant Bat: HD(2)|AC/ATK(12)|Dmg(d6)",
+                "Ettin: HD(5)|AC/ATK(15)|Dmg(2d6)",
+                "Terror Orb: HD(7)|AC/ATK(17)|Dmg(2d4)",
+                "Oozing Mouth: HD(5)|AC/ATK(15)|Dmg(3d4)",
+                "Stone Golem: HD(3)|AC/ATK(13)|Dmg(2d6+)",
+                "Dragon: HD(6)|AC/ATK(16)|Dmg(d4, d6, d8)"
+            ],
+            "unnatural": [
+                "Revenant: HD(2)|AC/ATK(12)|Dmg(d8)",
+                "Shadow: HD(2)|AC/ATK(12)|Dmg(2d4)",
+                "Giant Zombie: HD(4)|AC/ATK(14)|Dmg(2d6)",
+                "Water Fiend: HD(3)|AC/ATK(13)|Dmg(d4+d6)",
+                "Wight: HD(5)|AC/ATK(15)|Dmg(d10)",
+                "Malfyr: HD(6)|AC/ATK(16)|Dmg(d8+2)"
+            ]
+        }
+    },
+    "boss":[
+        {
+            "name": "Lazrothe the Sorceror",
+            "stats": "HD(6)|AC/ATK(16)|Dmg(d6 wand)",
+            "attack": "Spells (Fog: Obscures vision and hinders initiative) (Ice Touch: From range can cause loss of footing and focus; at melee, deals 1d8 damage) (Summon: Summons once per battle 1d4 Skeletons)",
+            "description": "Once a highly prized magic-user of the world, now a bitter man who's ambition jeopardized the realm. Deeper delves into the arcane workings of evil magics put the realm at risk, and he was removed from his station. Now hides in remote lairs, building an army for revenge."
+        },
+        {
+            "name": "Martin de Flail, Captain",
+            "stats": "HD(5)|AC/ATK(15)|Dmg(d8 Long Sword)",
+            "attack": "Always has initiative unless fully surprised or tricked. Accompanied by: 2 Soldiers: HD(2)|AC/ATK (12)|Dmg(d6)",
+            "description": "A proud warrior who felt slighted when a promotion was not rewarded to him. Has taken to terroizing the countryside and attacking patrols of soliders. Not really a Captain, but this has become part of his myth."
+        },
+        {
+            "name": "Grilsa, the Great Brood Mother",
+            "stats": "HD(4)|AC/ATK(14)|Dmg(d6 sting + d6 bite). Impossible to surprise with initiative. Weak against fire and cold. Each new round of combat, adds one Spider to the fight.",
+            "attack": "",
+            "description": "Said to be ancient and wise, but also cruel and bloodthirsty. Sole motive is to continue aging and growing her brood. It is said her eyes are rare fiery-red jewels worth 100 gold each."
+        },
+        {
+            "name": "Firebane, the Eater of Dragons",
+            "stats": "HD(7)|AC/ATK(17)|Dmg(d6 flame + d6 bite + d6 claw). Weak against his own reflection. Removing a foot claw will deal 3d8 damage to him. Uses his wings and flame breath to keep enemies at a distance from his vulnerable foot.",
+            "attack": "",
+            "description": "Terrorizes the inner mountain ranges, though sometimes ventures out into the valleys in pursuit of large dragon prey. Is said to sit over the great hoard of a lost civilation. If exposed to live fire, the removed claw will transform into a small dragon egg."
+        },
+        {
+            "name": "The Shrieking Wight:",
+            "stats": "HD(4)|AC/ATK(14)|Dmg(d6 sword + d4 dagger) Weak against fire, light, and healing magic. Cannot be poisoned.",
+            "attack": "",
+            "description": "A product of dark magic unchecked, this Wight has risen to lead fellow undead against humanity."
+        },
+        {
+            "name": "Sorlak, the Lich:",
+            "stats": "HD(8)|AC/ATK(18)|Spells (Bolt Arrow deals 1d4 damage) (Lightning deals 1d10 damage) (Life Drain deals 1 damage a turn, and gives Lich 1 life per turn). Immune to cold, lightning, and poison. Reduces ranged damage by d4. Weak against piercing.",
+            "attack": "",
+            "description": "A fierce undead wizard fully corrupted by the practice of dark magic. Consumes souls for power. Unleashes the undead amongst the world. Controls many minions and spies. Seeks powerful artifacts to augment its power."
+        }
+    ],
+    "encounters":{
+        "2": {
+            "name": "An altar",
+            "description": [
+                "drips with fresh blood", 
+                "lid shakes and rattles from inside",
+                "emits a clanging alarm sound if touched"
+            ]
+        },
+        "3": {
+            "name": "A pool",
+            "description": [
+                "heals d6 HP if sipped from",
+                "causes d4 poison damage if sipped",
+                "grants +1 to melee weapons washed within for 1 day"
+            ]
+        },
+        "4": {
+            "name": "Glowing fungus",
+            "description": [
+                "replenishes 1 HP",
+                "that explodes when crushed, causing d4 damage",
+                "that makes a great lantern"
+            ]
+        },
+        "5": {
+            "name": "A man locked in a cage",
+            "description": [
+                "who swears he is a prophet",
+                "swears he can cast heal (false)",
+                "swears he can cast heal (true)"]
+        },
+        "6": {
+            "name": "An adventurer's corpse",
+            "description": [
+                "is rigged with a trap (d8 damage)",
+                "has a purse with d20 coins",
+                "has a magical cloak (causes shadow camouflage)"
+            ]
+        },
+        "7": {
+            "name": "Two creatures",
+            "description": [
+                "toss something between them as a game",
+                "argue over which should receive an item between them",
+                "are fighting another two creatures"
+            ]
+        },
+        "8": {
+            "name": "A creature sleeps",
+            "description": [
+                "draped over a chest",
+                "in a doorway",
+                ""
+            ]
+        },
+        "9": {
+            "name": "A lost merchant",
+            "description": [
+                "is catatonic in the corner",
+                "pleads for your help",
+                "attacks in a fit of total madness"
+            ]
+        },
+        "10": {
+            "name": "Carrionfeeders",
+            "description": [
+                "eat the carcass of a creature",
+                "surround a creature in a corner",
+                "peck through the remains of an adventurer and their gear"
+            ]
+        },
+        "11": {
+            "name": "1d4 Adventurers",
+            "description": [
+                "are fighting a Tier 1 Unnatural",
+                "are trying to disarm a trap",
+                "are deciding arguing about whether to open a treasure chest"]
+        },
+        "12": {
+            "name": "A large egg",
+            "description": [
+                "eminates warmth and a soft glow",
+                "begins to crack, and the snout of some reptile is beginning to emerge",
+                "is cracked open, with a trail of blood and slime leading out of the room"]
+        }
+    }
+}
+
